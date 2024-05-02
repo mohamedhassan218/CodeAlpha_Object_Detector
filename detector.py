@@ -119,4 +119,4 @@ def webcam_handler():
 
 # Test our work.
 if __name__ == "__main__":
-    webcam_handler(YOLOType.YOLOv8n)
+    webcam_handler()
