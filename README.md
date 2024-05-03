@@ -16,7 +16,7 @@ The project is divided into the following files:
 
 ## Tools
 
-- **YOLOv8**.
+- [**YOLOv8**](https://docs.ultralytics.com/).
 - **OpenCV**.
 
 
