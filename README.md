@@ -4,6 +4,7 @@ This is the first task in the [CodeAlpha](https://www.codealpha.tech/) AI intern
 
 This repository contains code for a real-time object tracker and detection system implemented using the **YOLO** (You Only Look Once) model specifically, **YOLOv8**. The system is capable of detecting and tracking objects in existing videos as well as in real-time using a webcam feed.
 
+
 ## Overview
 
 The project is divided into the following files:
@@ -11,6 +12,13 @@ The project is divided into the following files:
 - `detector.py`: module contains the work with the YOLO model in the two scenarios.
 - `app.py`: module contains simple UI using `tkinter` that deals with `detector.py` in the background.
 - `requirements.txt`: dependencies needed to be able to run the project.
+
+
+## Tools
+
+- **YOLOv8**.
+- **OpenCV**.
+
 
 ## Features
 
@@ -24,6 +32,7 @@ The project is divided into the following files:
 
 ![Demo](Demo.gif)
 
+
 ## Usage
 
 1. Clone the repository:
@@ -31,6 +40,7 @@ The project is divided into the following files:
     ```bash
     git clone git@github.com:mohamedhassan218/CodeAlpha_Object_Detector.git
     ```
+
 2. Create a Virtual Environment:
     ```bash
     python -m venv .venv
@@ -47,7 +57,6 @@ The project is divided into the following files:
         source .venv/bin/activate
         ```
 
-
 4. Install the required dependencies:
 
     ```bash
@@ -59,6 +68,7 @@ The project is divided into the following files:
     ```bash
     py app.py
     ```
+
 
 ## Contributing
 
